@@ -1,0 +1,127 @@
+{
+  "name": "Eduarda Mendonça",
+  "titulo": "Estagiária em TI",
+  "localidade": {
+    "cidade": "Uberlândia",
+    "estado": "Minas Gerais",
+    "pais": "Brasil"
+  },
+  "telefone": "(34) 997741178",
+  "email": "eduardamendonca.dev@gmail.com",
+  "skills": {
+    "hardSkills": [
+      {
+        "nome": "JavaScript",
+        "logo": "TODO"
+      },
+      {
+        "nome": "C++",
+        "logo": "TODO"
+      },
+      {
+        "nome": "PHP",
+        "logo": "TODO"
+      }
+      {
+        "nome": "SQL",
+        "logo": "TODO"
+      }
+    ],
+    "softSkills": ["Comunicação", "Empatia", "Organização"]
+  },
+  "idiomas": [
+    {
+      "nome": "Português",
+      "nivel": "Nativo"
+    },
+    {
+      "nome": "Inglês",
+      "nivel": "Básico"
+    }
+  ],
+  "educacao": [
+    {
+      "nome": "Técnico em Análise e Desenvolvimento de Sitemas",
+      "descricao": "Aprendendo na prática todo o processo de desenvolvimento de sistemas",
+      "instituicao": "Senac MG",
+      "periodo": {
+        "inicio": "2021",
+        "fim": "2023"
+      },
+    
+      
+      "certificados": [
+        {
+          "nome": "Formação: Blockchain Specialist (25h)",
+          "link": "https://www.dio.me/certificate/28601B02"
+        },
+        {
+          "nome": "Curso: Desenvolvimento Mobile Nativo Para Android",
+          "link": "https://www.dio.me/certificate/07041B99"
+        },
+        {
+          "nome": "Curso: Componentes, Layouts e UI/UX Em Apps Android",
+          "link": "https://www.dio.me/certificate/F12AC30B"
+        },
+        {
+          "nome": "Curso: Java e Kotlin Juntos!? Construindo Apps Android",
+          "link": "https://www.dio.me/certificate/3FB20BF1"
+        },
+        {
+          "nome": "Curso: Explorando o Firebase Para Apps Android Resiliente",
+          "link": "https://www.dio.me/certificate/BA099F34"
+        }
+      ]
+    },
+    {
+      "nome": "Doutorado em Engenharia de Software",
+      "descricao": "Uma Infraestrutura de Apoio ao Ensino e Aprendizagem de Línguas de Sinais",
+      "instituicao": "Universidade de São Paulo (USP)",
+      "periodo": {
+        "inicio": "2018",
+        "fim": "Atualmente"
+      }
+    },
+    {
+      "nome": "Mestrado em Engenharia de Software",
+      "descricao": "Estudo e Definição de Uma Linha de Produtos de Software Para o Desenvolvimento de Aplicações Educacionais Moveis",
+      "instituicao": "Universidade de São Paulo (USP)",
+      "periodo": {
+        "inicio": "2012",
+        "fim": "2015"
+      }
+    },
+    {
+      "nome": "Bacharelado em Engenharia de Computação",
+      "descricao": "",
+      "instituicao": "Universidade de Araraquara (UNIARA)",
+      "periodo": {
+        "inicio": "2007",
+        "fim": "2011"
+      }
+    }
+  ],
+  "portfolio": [
+    {
+      "nome": "Crie o seu NFT de Pokémon com Blockchain (DIO)",
+      "gitHub": "https://github.com/digitalinnovationone/formacao-blockchain-dio",
+      "certificado": "https://www.dio.me/certificate/34F1FBA1"
+    },
+    {
+      "nome": "App Nativo Sobre Futebol Feminino com Android Jetpack e Java (DIO)",
+      "gitHub": "https://github.com/digitalinnovationone/soccer-news-app",
+      "certificado": "https://www.dio.me/certificate/9A5090FC"
+    }
+  ],
+  "experiencias": [
+    {
+      "nome": "Estágio em TI ",
+      "descricao": "Suporte ao usuário e manutenção de máquinas",
+      "instituicao": "DMAE - Uberlândia",
+      "periodo": {
+        "inicio": "02/2023",
+        "fim": "Atualmente"
+      }
+    }
+  ]
+}

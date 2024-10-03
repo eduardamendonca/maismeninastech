@@ -1,0 +1,106 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header .photo {
+  width: 8rem;
+  border-radius: 8rem;
+  border: 3px solid white;
+  box-shadow: 0 0 2rem #450482;
+}
+.header .title {
+  text-align: center;
+}
+h1 {
+  font-weight: 400;
+  margin-top: 1rem;
+}
+.introducao{
+  font-weight: 500;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  line-height: 25px;
+  
+}
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+.information p {
+  margin: 0.3rem;
+}
+.information p::before {
+  content: "";
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  
+  background-size: contain;
+  margin-right: 0.5rem;
+}
+
+.information .instagram::before {
+  background-image: url("/img/icons_profile/Instagram.svg");
+  background-repeat: no-repeat;
+}
+.information .location::before {
+  background-image: url("/img/icons_profile/location.svg");
+  background-repeat: no-repeat;
+}
+.information .email::before {
+  background-image: url("/img/icons_profile/email.svg");
+  background-repeat: no-repeat;
+}
+.information .wpp::before {
+  background-image: url("/img/icons_profile/wpp_profile.svg");
+  background-repeat: no-repeat;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.social img {
+  width: 2.5em;
+  margin: 1rem 1.8rem;
+}
+.links-list {
+  list-style: none;
+}
+.links-list li {
+  margin: 1rem 2rem;
+}
+.links-list li a {
+  display: block;
+  background: #ffff;
+  padding: 10px;
+  border-radius: 1rem;
+  text-decoration: none;
+  color: #450482;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    display: grid;
+    grid-template-areas:
+      "photo title"
+      "photo information";
+  }
+  .header .photo {
+    grid-area: photo;
+    margin: 0 auto;
+  }
+  .header .title {
+    grid-area: title;
+    text-align: start;
+    max-width: 200px;
+  }
+  .header .information {
+    grid-area: information;
+  }
+}
